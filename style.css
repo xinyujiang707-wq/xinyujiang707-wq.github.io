@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+.wrap {
+    max-width: 800;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body {
+    margin: 0;
+    background-color: #43B6BF;
+}
+
+
+header {
+    background-color: #43B6BF;
+    font-size: 36pt;
+    color: #196668;
+    font-family: "Modak";
+    font-weight: bold;
+    -webkit-text-stroke: 2PX white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+main {
+    background-color: #43B6BF;
+
+
+
+}
+
+
+.subtitle {
+    font-size: .5em;
+}
+
+.menu {
+    font-size: 30px;
+    display: flex;
+    gap: 50px;
+    margin-top: 0.5em;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 351px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    background-color: #196668;
+    display: block;
+    border-radius: 10px;
+    line-height: 1.25;
+    padding: 0.25em 0.25em 0.25em 0.25em;
+    transition: all.5 ease-out;
+
+}
+.menu a:hover {
+    background-color: rgb(61, 2, 73);
+    color: #d61212;
+    
+    transition: all .5s ease-out;
+}
+
+
+.article {
+    color: #196668;
+    size: 15px;
+}
+
+.line {
+    border: #196668;
+    height: 15px;
+    background-color: #196668;
+}
+
+.box {
+    background-color: #196668;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 3em;
+
+
+
+
+}
+
+.footer {
+    background-color: #00252A;
+    color: white;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+
+}
+ 
+.left-group {
+    display: flex;
+    align-content: center;
+}
+
+.left-text {
+
+    width: 180px;
+    font-size:12px;
+    margin-top: 53px;
+    font-family: BIZ UDMincho;
+
+}
+
+.line2 {
+    width: 2px;
+   background: white;
+   height: 120px;
+   margin-left: -100px;
+   margin-right: 30px;
+   
+}
+
+
+.menu2 {
+   display: flex;
+   flex-direction: column;
+   gap: 13px;
+   
+}
+
+.menu2 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 0.5em;
+    display: block;
+    font-family:BIZ UDMincho;
+    margin-top: 8px;
+
+}
+.Photo{
+    display: flex;
+    justify-content: center;
+}
+.Photo img {
+  display: block; 
+  width: 175px;
+  border-radius: 25px;
+  margin-top:10px;
+
+}
+
+.container{
+    display: grid;
+  gap: 10px;
+  grid-template-columns: 0.5fr 0fr 0fr 11fr;
+  grid-template-rows: 124px 91px 173px 167px auto;
+}
+
+
+  
+
+
